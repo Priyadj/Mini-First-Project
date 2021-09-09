@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head><title>priya jain</title></head>
+</html>
+<body>
+    <h1 id="heading"></h1>
+    <h1>Welcome to my site</h1>
+    
+    <script>
+        window.localStorage.setItem("user logged In", "Yes");
+
+        var k = window.localStorage.getItem("user logged In")
+        console.log(k);
+        if(k==true){
+            alert('user is logged in');
+        }
+        else{
+            alert('user is logged in');
+        }
+
+        document.getElementById('heading').innerHTML="Hello World";
+        console.log(this);
+        function add(){
+            console.log(this);
+        }
+
+        let a = {
+            name: 'Priya',
+            video(){
+                console.log(this);
+            }
+        }
+        a.video();
+        
+        console.log(c);
+    
+        var c= 90;
+
+        console.log(c);
+        add();
+         
+        console.log(h);
+
+        function add(){
+            console.log(h+20);
+        }
+
+
+        var h= 20;
+
+        a = 'Priya jain';
+
+        console.log(a);
+
+        console.log(typeof a);
+
+        console.log(window.innerHeight);
+        console.log(window.innerWidth);
+        console.log(window.location.href);
+        console.log(window.location.hostname);
+        console.log(window.pathname);
+        console.log(window.alert);
+
+
+
+
+    </script>
+</body>
