@@ -333,6 +333,7 @@ blockquote span{
 /* section three */
 .section-three{
     margin: 40px 0;
+    margin-right: 90px;
 }
 .single-img{
     position: relative;
@@ -362,6 +363,7 @@ blockquote span{
 /* section four */
 .section-four{
     margin: 40px 0;
+    margin-right: 40px;
 }
 .blog{
     margin: 40px 0;
@@ -404,6 +406,7 @@ blockquote span{
 /* section five */
 .section-five{
     margin: 40px 0;
+   
 }
 .section-five .container div{
     margin: 20px 0;
@@ -440,7 +443,8 @@ blockquote span{
     opacity: 0.7;
 }
 .contact-bottom{
-    margin-top: 50px!important;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .form input[type = "text"], .form input[type = "email"], .form textarea{
     width: 100%;
@@ -454,6 +458,7 @@ blockquote span{
 .contact-bottom .form{
     padding: 0 20px;
 }
+
 
 /************** end of contact us.html **********/
 
