@@ -444,7 +444,6 @@ blockquote span{
 }
 .contact-bottom{
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 .form input[type = "text"], .form input[type = "email"], .form textarea{
     width: 100%;
@@ -458,7 +457,6 @@ blockquote span{
 .contact-bottom .form{
     padding: 0 20px;
 }
-
 
 /************** end of contact us.html **********/
 
