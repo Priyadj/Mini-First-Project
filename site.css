@@ -3,10 +3,10 @@
 :root{
     --white: #ddd;
     --dark: #111;
-    --darkGrey: #87CEFA;
+    --lightblue: #87CEFA;
     --lightGrey: orange;
-    --lightGreen: blue;
-    --darkGreen: #1E90FF;
+    --darkblue: blue;
+    --blue: #1E90FF;
     --transition: all 0.5s ease;
 }
 *{
@@ -44,27 +44,27 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0 auto;
 }
 .btn{
-    background: var(--darkGreen);
+    background: var(--blue);
     border: none;
     display: block;
     width: 150px;
     text-align: center;
-    color: var(--darkGreen);
+    color: var(--blue);
     text-transform: uppercase;
     background: transparent;
     font-size: 15px;
     padding: 12px;
-    border: 2px solid var(--darkGreen);
+    border: 2px solid var(--blue);
     border-radius: 25px;
     margin: 15px 0;
     transition: var(--transition);
 }
 .btn:hover{
-    background: var(--darkGreen);
+    background: var(--blue);
     color: #fff;
 }
 .active{
-    color: var(--lightGreen)!important;
+    color: var(--darkblue)!important;
 }
 
 /**************** end of Utility Classes *******************/
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(37, 37, 37, 0.6)), url("/home/arihant/Assignment/Priyadj/images/camera1.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(37, 37, 37, 0.6)), url("./images/camera1.jpg") center/cover no-repeat;
     color: #fff;
 }
 .top-nav a{
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p{
 .top-nav ul a::after{
     content: "";
     height: 2px;
-    background: var(--lightGreen);
+    background: var(--darkblue);
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 48px;
     text-align: center;
     margin-bottom: 35px;
-    color: var(--lightGreen);
+    color: var(--darkblue);
 }
 .about-content h3{
     color: #fff;
@@ -183,7 +183,7 @@ blockquote{
 blockquote span{
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--darkGreen);
+    color: var(--blue);
     font-weight: 300;
     letter-spacing: 5px;
     display: block;
@@ -211,8 +211,8 @@ blockquote span{
     justify-content: space-around;
 }
 .social-icons ul a:hover{
-    background: var(--lightGreen);
-    border-color: var(--lightGreen);
+    background: var(--dark);
+    border-color: var(--darkblue);
 }
 
 /********************* End of Header ***********************/
@@ -228,7 +228,7 @@ blockquote span{
 }
 .sec-one-left{
     height: 100vh;
-    background: url("/home/arihant/Assignment/Priyadj/images/site9.jpg") center/cover no-repeat;
+    background: url("./images/site9.jpg") center/cover no-repeat;
     box-shadow: 0px 0px 14px -1px rgba(3, 3, 3, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(6, 7, 7, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(10, 10, 10, 0.75);
@@ -269,12 +269,12 @@ blockquote span{
     grid-column-gap: 20px;
 }
 .work-img-1{
-    background:url("/home/arihant/Assignment/Priyadj/images/cap3.jpeg") center/cover no-repeat;
+    background:url("./images/cap3.jpeg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
 .work-img-2{
-    background:url("/home/arihant/Assignment/Priyadj/images/cap4.jpg") center/cover no-repeat;
+    background:url("./images/cap4.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
@@ -294,7 +294,7 @@ blockquote span{
     font-size: 40px;
 }
 .section-two span{
-    color: var(--darkGrey);
+    color: var(--lightblue);
     text-align: center;
     display: block;
     font-size: 20px;
@@ -374,7 +374,7 @@ blockquote span{
     display: block;
 }
 .badge{
-    background: var(--lightGreen);
+    background: var(--darkblue);
     width: 140px;
     border-radius: 5px;
     padding: 5px 0;
@@ -447,7 +447,7 @@ blockquote span{
     font-size: 16px;
     padding: 10px 15px;
     margin: 10px 0;
-    border: 1px solid var(--lightGreen);
+    border: 1px solid var(--darkblue);
     outline: none;
     border-radius: 5px;
 }
@@ -471,7 +471,7 @@ blockquote span{
     margin: 40px 0;
 }
 .footer-container h2{
-    color: var(--lightGreen);
+    color: var(--darkblue);
     font-size: 36px;
     font-weight: 500;
     letter-spacing: 7px;
@@ -506,7 +506,7 @@ blockquote span{
     font-size: 16px;
     padding: 15px 0;
     font-weight: bold;
-    background: var(--lightGreen);
+    background: var(--darkblue);
     border: none;
     transition: var(--transition);
     cursor: pointer;
