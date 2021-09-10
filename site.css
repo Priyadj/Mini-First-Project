@@ -286,9 +286,7 @@ blockquote span{
 
 
 /* section two */
-.section-two{1.jpg
-    Initial commit
-    
+.section-two{
     margin: 40px 0;
 }
 .section-two h2{
@@ -347,9 +345,7 @@ blockquote span{
     left: 0;
     right: 0;
     color: #fff;
-    padding: 5px 30px;1.jpg
-    Initial commit
-    
+    padding: 5px 30px;
     background: rgba(0, 0, 0, 0.7);
 }
 .single-img-content h3{
@@ -532,7 +528,7 @@ blockquote span{
 
 /***************** Media Queries *****************/
 
-@media screen and (min-width: 200px){
+@media screen and (min-width: 678px){
     /* section five */
     .contact-middle{
         display: grid;
@@ -541,7 +537,7 @@ blockquote span{
     }
 }
 
-@media screen and (min-width: 200px){
+@media screen and (min-width: 800px){
     /* section two */
     .insta-imgs{
         grid-template-columns: repeat(4, 1fr);
@@ -620,7 +616,7 @@ blockquote span{
 }
 
 
-@media screen and (min-width: 200px){
+@media screen and (min-width: 1000px){
     /* section one */
     .section-one .container{
         display: grid;
@@ -675,7 +671,7 @@ blockquote span{
 
 /*************** extra small sized screen ******************/
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 200px){
     /* overall styling */
     .header{
         padding-bottom: 30px;
