@@ -31,7 +31,7 @@ go into your theme’s settings panel and explore all the possible options there
 <h2>Reference</h2>
         https://www.bobbooks.co.uk/blog-post/20-essential-photography-tips-for-beginners-1
 
-    <p>Most code used are open source and is picked up from different-different website</p>  
+    Most code used are open source and is picked up from different-different website 
 
     Thank you!!
 
