@@ -10,18 +10,17 @@ make  blog posts more prominent
 take advantage of custom CSS (where available) to further tweak things around
 go into your theme’s settings panel and explore all the possible options there, 
 
-Features:-
-1. Gallery
+<a href ="#"><h2>Features:-</h2>
+<h5>Gallery</h5>
     collection of different type of work by photographer.
 
-2. Blogging
+<h5>Blogging</h5>
    My blogging course for photographers is all you need to get you started blogging (covering topics like blog platforms, SEO tips, knowing what to blog about and how to promote and monetize your blog).
 
-3. Social networking
+<h5>Social networking</h5>
     For making connection with user .
 
-
-    IDE:
+<a href="#"><h2>IDE:</h2></a>
 
     Visual studio code 2019
 
@@ -29,7 +28,7 @@ Features:-
 
     HTML 5, CSS 2.1 and Bootstrap Version 5.15.4 For Font Awesome
 
-    Reference
+<a href="#"><h2>Reference</h2>
         https://www.bobbooks.co.uk/blog-post/20-essential-photography-tips-for-beginners-1
 
     Most code used are open source and is picked up from different-different website   
