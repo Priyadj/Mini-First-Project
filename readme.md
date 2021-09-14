@@ -17,7 +17,7 @@ go into your theme’s settings panel and explore all the possible options there
 <h5>Blogging</h5>
    <p>My blogging course for photographers is all you need to get you started blogging (covering topics like blog platforms, SEO tips, knowing what to blog about and how to promote and monetize your blog).</p>
 
-<h2>Social networking</h2>
+<h5>Social networking</h5>
     For making connection with user .
 
 <h2>IDE:</h2>
